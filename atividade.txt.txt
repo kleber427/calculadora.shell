@@ -1,0 +1,41 @@
+
+
+ óla como vai você?
+
+ Eu vou bem e você?
+
+ Qual seu nome?
+
+ Sou kleber e seu ?
+
+
+################
+
+1 #!/bin/bash
+2
+3 read -p "Digite um nÃºmero: " n1
+4
+5 echo "Escolha o nÃºmero do seu operador:"
+6
+7 read -p "1-somar |2-subtrair | 3 -multiplicar |4-dividir: " operador
+8
+9 read -p "Digite o segundo nÃºmero: " n2
+11 if[ $operador -eq 1]
+12 resultado= echo "scale=2; $n1 + $n2" | bc
+13 echo "O resultado de $n1 + $n2 Ã©= $resultado"
+14 elif[ $operador -eq 1]
+15 resultado= echo "scale=2; $n1 - $n2" | bc
+16 echo "O resultado  de $n1 -$n2 Ã©= $resultado"
+17 elif[ $operador -eq 1]
+17 echo "O resultado  de $n1 * $n2" | bc
+18 echo "O resultado de $n1 * $n2 Ã©= $resultado"
+19 elif[ $operador -eq 1]
+20 echo "O resultado de $n1 / $n2" | bc
+21 echo "O resultado de $n1 / $n2" | bc
+22 else
+23 echo "Nemhuma operaÃ§Ã£o vÃ¡lida encontrada."
+24 fi
+
+
+ Marianny.
+
